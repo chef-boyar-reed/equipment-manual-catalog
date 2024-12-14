@@ -1,6 +1,6 @@
 import os
 from flask import Flask, request, jsonify
-from vectorstore import load_vectorstore  # Adjust to match your project structure
+from src.vectorstore import load_vectorstore  # Adjust to match your project structure
 from langchain_openai.chat_models import ChatOpenAI
 
 # Debugging to ensure Flask is being imported
