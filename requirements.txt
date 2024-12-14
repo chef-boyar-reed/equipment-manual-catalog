@@ -2,3 +2,5 @@ langchain
 pypdf
 openai
 faiss-cpu
+langchain-openai
+tiktoken
